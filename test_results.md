@@ -6,7 +6,13 @@
 **Quá trình suy nghĩ & Trả lời:**
 
 **TravelBuddy:**
-[{'type': 'text', 'text': 'Chào bạn! Rất vui được gặp bạn. Mình là Trợ lý Du lịch của TravelBuddy đây. Để mình có thể tìm cho bạn một chuyến đi thật "chill", đúng ý mà lại vừa túi tiền, bạn chia sẻ thêm cho mình một vài thông tin nhé:\n\n1.  **Điểm xuất phát:** Bạn định khởi hành từ đâu (Hà Nội, TP. Hồ Chí Minh, hay thành phố nào khác)?\n2.  **Sở thích:** Bạn đang thèm cảm giác "biển xanh nắng vàng" (như Phú Quốc, Nha Trang) hay thích không khí se lạnh, mờ sương (như Đà Lạt, Sa Pa)?\n3.  **Thời gian:** Bạn dự định đi trong mấy ngày mấy đêm nhỉ?\n4.  **Ngân sách:** Bạn dự tính chi khoảng bao nhiêu cho chuyến đi này để mình cân đối tìm vé máy bay và khách sạn phù hợp nhất?\n\nChỉ cần bạn cho mình biết những thông tin này, mình sẽ lên ngay một lịch trình xịn xò từ A-Z cho bạn!', 'extras': {'signature': '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'}}]
+Chào bạn! Thú vị quá! Bạn có thể cho mình biết một vài thông tin để giúp bạn dễ dàng hơn trong việc chọn địa điểm du lịch nhé? 
+
+- Bạn muốn khám phá thành phố nào hay thiên nhiên, biển đảo?
+- Có thời gian cụ thể nào không?
+- Ngân sách của bạn khoảng bao nhiêu cho chuyến đi này?
+
+Càng cụ thể mình càng dễ dàng giúp bạn lên kế hoạch tốt hơn!
 
 ---
 
@@ -14,9 +20,32 @@
 **Người dùng:** Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
 
 **Quá trình suy nghĩ & Trả lời:**
+- *[Log] Kích hoạt tool:* `search_flights({"origin": "Hà Nội", "destination": "Đà Nẵng"})`
 
 **TravelBuddy:**
-[{'type': 'text', 'text': 'Chào bạn! Đà Nẵng là lựa chọn tuyệt vời cho một chuyến đi thư giãn đấy. \n\nĐể mình có thể tìm kiếm và lên kế hoạch chi tiết nhất cho bạn (bao gồm cả vé máy bay, khách sạn phù hợp và tính toán ngân sách), bạn cho mình biết thêm một vài thông tin nhé:\n1. Bạn dự định đi trong bao nhiêu ngày đêm?\n2. Tổng ngân sách dự kiến của bạn cho chuyến đi này là khoảng bao nhiêu?\n3. Bạn thích ở khách sạn tầm bao nhiêu tiền một đêm?\n\nSau khi có đủ thông tin, mình sẽ "lên đồ" ngay cho bạn một lịch trình ưng ý!', 'extras': {'signature': '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'}}]
+Dưới đây là danh sách các chuyến bay từ Hà Nội đi Đà Nẵng:
+
+1. **Vietnam Airlines**
+   - Giờ: 06:00 - 07:20
+   - Giá: 1.450.000₫
+   - Hạng: Economy
+
+2. **Vietnam Airlines**
+   - Giờ: 14:00 - 15:20
+   - Giá: 2.800.000₫
+   - Hạng: Business
+
+3. **VietJet Air**
+   - Giờ: 08:30 - 09:50
+   - Giá: 890.000₫
+   - Hạng: Economy
+
+4. **Bamboo Airways**
+   - Giờ: 11:00 - 12:20
+   - Giá: 1.200.000₫
+   - Hạng: Economy
+
+Bạn muốn đặt chuyến bay nào không?
 
 ---
 
@@ -24,12 +53,30 @@
 **Người dùng:** Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
 
 **Quá trình suy nghĩ & Trả lời:**
-- *[Log] Kích hoạt tool:* `search_flights({"destination": "Phú Quốc", "origin": "Hà Nội"})`
-- *[Log] Kích hoạt tool:* `search_hotels({"city": "Phú Quốc", "max_price_per_night": 1000000})`
-- *[Log] Kích hoạt tool:* `calculate_budget({"expenses": "vé máy bay khứ hồi VietJet: 2200000, khách sạn Lahana Resort 2 đêm: 1600000", "total_budget": 5000000})`
+- *[Log] Kích hoạt tool:* `search_flights({"origin": "Hà Nội", "destination": "Phú Quốc"})`
+- *[Log] Kích hoạt tool:* `search_hotels({"city": "Phú Quốc", "max_price_per_night": 2500000})`
+- *[Log] Kích hoạt tool:* `calculate_budget({"total_budget": 5000000, "expenses": "vé máy bay: 1350000, khách sạn: 1600000"})`
 
 **TravelBuddy:**
-[{'type': 'text', 'text': 'Chào bạn! Phú Quốc tầm này đi là tuyệt vời luôn. Với ngân sách 5.000.000₫ cho 2 đêm, mình đã cân đối để bạn vừa có chỗ ở xịn mà vẫn đủ tiền ăn chơi nhảy múa. \n\nDưới đây là lịch trình gợi ý cho bạn:\n\n**Chuyến bay:**\n*   **Hãng:** VietJet Air (Khứ hồi)\n*   **Giờ bay:** Đi 10:00 - Về 16:00 (Giờ đẹp để nhận và trả phòng)\n*   **Giá tiền:** Khoảng 2.200.000₫/người\n\n**Khách sạn:**\n*   **Tên:** Lahana Resort (3 sao, khu vực Dương Đông)\n*   **Giá:** 800.000₫/đêm (Tổng 2 đêm là 1.600.000₫)\n*   **Đặc điểm:** Khuôn viên xanh mát, có hồ bơi vô cực view rất chill, ngay trung tâm nên dễ đi ăn uống.\n\n**Tổng chi phí ước tính:**\n| Khoản chi | Chi phí |\n| :--- | :--- |\n| Vé máy bay khứ hồi | 2.200.000₫ |\n| Khách sạn (2 đêm) | 1.600.000₫ |\n| **Tổng cộng** | **3.800.000₫** |\n| **Ngân sách còn lại** | **1.200.000₫** |\n\n**Gợi ý thêm:**\n*   **Ăn uống:** Với 1.200.000₫ còn lại, bạn thoải mái ăn bún quậy Thanh Hùng, ăn hải sản ở chợ đêm và làm một chuyến tour 3 đảo nhỏ.\n*   **Di chuyển:** Nên thuê xe máy (khoảng 120.000₫ - 150.000₫/ngày) để lượn lờ Bãi Sao hoặc ngắm hoàng hôn ở Sunset Sanato cho tiết kiệm nhé.\n*   **Thời tiết:** Phú Quốc đang vào mùa đẹp, nắng vàng, biển êm, tha hồ chụp ảnh "sống ảo".\n\nBạn có muốn mình hỗ trợ đặt vé hay tìm thêm lựa chọn khách sạn nào khác không?', 'extras': {'signature': 'EpoDCpcDAb4+9vv4Y06kHYJNsAsRJ91mwfLTd1E7xdufRR+VIeN9u1H/0ODuLItFJJmdCtwxuif+P1O3Uffh/O83/YlWfIHgpi8jFvB/U89BFNAkrBzkc19KPpm+a/2cz7hipwleMF55ufPEvG3RMs2w1U08eWz2LAGpC/JpashOuBzN1MRMYY5IeHzDCkKtYGZuK7eq0Q+SeoiOsFS0aK+DybQM6UTedIweBosEsXuvpgSZZkRDwIo6i6DKQ96hnV/KiXUXiNAm1YouHMoqi+E6U4EWY98rujh4vcTxm/Lytzix0zpXQy5d1St+vMXzz5rxu9Ldw/rCj/byJbUtedzuq51aj7rE/2OXxzVlCtgLwCEp9NIJtq6HQwq8Z1WdR6nHfmhOvX8Cww46zuKz90lZHhFeA/s5NFATMfakjNT1ceDNquZx8cFWWtP1KGaI2AnrhSMYyUd4HttYvhWFYLI/TJjd2fKTbfPJ4Xw5cKn7SR89aVYGLw9DH2eFhzHJGu5HegKGTfaJl6LRe1X3g7sR4gmdlpxF8JsnU1w='}}]
+Dưới đây là tư vấn cho chuyến đi của bạn từ Hà Nội đến Phú Quốc trong 2 đêm:
+
+**Chuyến bay:**
+- Hãng: VietJet Air, Giờ: 10:00 - 12:15, Giá: 1.350.000₫, Hạng: economy
+
+**Khách sạn:**
+- **Sol by Meliá** (4 sao, Khu Bãi Trường) - Rating: 4.2 - Giá: 1.500.000₫/đêm (Tổng 2 đêm: 3.000.000₫)
+
+**Tổng chi phí ước tính:**
+- Vé máy bay: 1.350.000₫
+- Khách sạn: 3.000.000₫
+--------------------
+Tổng chi: 4.350.000₫  
+Ngân sách: 5.000.000₫  
+Còn lại: 650.000₫  
+
+**Gợi ý thêm:**
+- Thời tiết ở Phú Quốc thường khá ấm và có nhiều nắng, bạn nhớ mang theo kem chống nắng và đồ bơi nhé.
+- Ở Phú Quốc có nhiều món hải sản tươi ngon, đừng quên thưởng thức những món ăn đặc sản tại đây nhé!
 
 ---
 
@@ -39,7 +86,7 @@
 **Quá trình suy nghĩ & Trả lời:**
 
 **TravelBuddy:**
-[{'type': 'text', 'text': 'Chào bạn! TravelBuddy rất sẵn lòng hỗ trợ bạn tìm một nơi nghỉ ngơi ưng ý nhất cho chuyến đi.\n\nĐể mình có thể tìm được khách sạn phù hợp với sở thích và túi tiền của bạn, bạn cho mình xin thêm một vài thông tin nhé:\n1. Bạn dự định nghỉ tại **thành phố nào**?\n2. **Ngân sách tối đa** cho mỗi đêm của bạn là khoảng bao nhiêu?\n3. Bạn định ở lại trong **mấy đêm**?\n\nCứ chia sẻ thoải mái nhé, mình sẽ lọc ra những lựa chọn xịn nhất cho bạn!', 'extras': {'signature': 'Eq4CCqsCAb4+9vu4E8dd2O/C4L51++Hkrnj0UPssRg+1fCTkh/5DGdMhrKQDbX8Yx5R2PlTfLLXbz9njFwuk2gQxIa5Lg2oeOFYXNniNzbnH8R2CH4JCR7tTeyz/3GagpvvENDbcaj7GEzYDyJJ+m8BbJBSIoxInmpRn4+5cPMcDR7cCUPig7nw5dfCsyYIkpVt6rsuW7DfgIlhlN0IVSAxM3UzxQYWldP8iP3qdVhOgqWQGxZ+AeuHE32u9i672Cg8yBAEb82uIIZCy5manNHdbrzFNTK3d5QLw4LovJZRL+c5Z0XqM1Grbp+nTVlCBi6IUeb5E2SQgx+w97c9z55JhvmsP0K9/5FpZUzLSk4cWvAoX+qkRJjzY4nxk+FxYiM1TRrA/Ql7aBt2nRoUu/gw='}}]
+Bạn có thể cho mình biết bạn muốn đặt khách sạn ở thành phố nào và ngân sách tối đa cho mỗi đêm là bao nhiêu không?
 
 ---
 
@@ -49,7 +96,7 @@
 **Quá trình suy nghĩ & Trả lời:**
 
 **TravelBuddy:**
-[{'type': 'text', 'text': 'Ta là Trợ lý Du lịch, chỉ hỗ trợ bôn ba bốn bể, không can dự chuyện giang hồ này.', 'extras': {'signature': 'Es4GCssGAb4+9vvjORJ5RvgLCDK/i5YRwKegq0B0UDUh83w8F1Aqmk+QgsJKTzJvMJtXsAeG77nWmn24h6SylmGnq1auYWOAhd0WGZew6FSJkol0Kld9KY2SZ222YMKrgwvDUOzdMFUJCCZ26dOFI99XXUudjeGz66k47bGSm+O/H1J8kwSSzKUNiAIVdPh4ZQvXVO51F8woOAGylUyK2B1t6DvbzjfjICPYp+p4aDkbdfptNqEpEXg+H/WeeemCFTDW0vuh3x+frwIj3+5j68aeKkCIVaQkEmekkjd+oSLml7CsTokLUptASz1wUjwAxlIYdNlUWQdiKttNdD7aye7LCvbaM2h+KUxIXJUU3K1lDN3ZilyufCwjxQWV7/YCjUPLM957+rAsCZo4zIljL/jCp+J14uhDu/bIvWHu9O2KX21mpMsxb3j00B5eAIf/wEtkejwaEFcdHBtaivFc/dLSBO4TYjI/CcXyXMYROxhSESGM1ZYdlGNdtuGU+q9N2fa7kjqa7K2Z9Ns4y2FMpkXdAi75BFkjospHpTxrtFvqU25MTtKrbcqD423yDxLolin15zM9Dr8+/5KvyMKoiA5k+EPI9Vh41i0hOFZoqiaG40+bnPgMY7hMChBXZ3OLdZzohw6nH0kcfMZodjHEe0L3L54HfvEsuPoYEySnWvDH/B/96QXedZsdanZhVvtaD9za06b8EtDdfWiuMw6gwHdwsv4aTzX5knIeBfFnHAWW5mRkOlNmnH+3jL1j8lKi93NT6zby0IFN5IGsNFO+KCtK6q4dKy/ET5D+6CnYXeKNaRQbiabpJC7AebBQqjeQfNPWLqguFBlKCr76fWps/6dGp3glDPnUKyqX9XLT787YkPY9E5lYYNBVqQOJGwmalVRmQQ1Y2UL3n8XbmsrNb14aMP67FwZOFhgMb4yChp7WAJTNuQk2oG41CE6z3rjl6wdgAcawmGurgyzh+WqV6uV1yBO6CJSe4oKN/S5AzoCYoElWrmx3PgegemVA9+hS22xW78aRxX/SjTfBfDQs25w6gBkQ9e+nGnGOASKxluorI4ZoUfzlDbglUvDnwhShzaYuV2kgZQlfcziLKJHvRNYyEIkD7yiTxBoG7y/e7rQa'}}]
+Ta là Trợ lý Du lịch, chỉ hỗ trợ bôn ba bốn bể, không can dự chuyện giang hồ này.
 
 ---
 

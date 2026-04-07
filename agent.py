@@ -36,7 +36,7 @@ def get_llm_model(provider: str = "gemini"):
         raise ValueError(f"Cảnh báo: Provider {provider} chưa được hỗ trợ!")
 
 tools_list = [search_flights, search_hotels, calculate_budget]
-llm = get_llm_model(provider="gemini")
+llm = get_llm_model(provider="openai")
 llm_with_tools = llm.bind_tools(tools_list)
 
 # 4. Agent Node

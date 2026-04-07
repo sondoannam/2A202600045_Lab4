@@ -38,7 +38,14 @@ def run_all_tests():
                     
                     # Nội dung trả lời cho người dùng
                     if msg.content:
-                        f.write(f"\n**TravelBuddy:**\n{msg.content}\n\n")
+                        # Kiểm tra xem content có phải là chuỗi không
+                        if isinstance(msg.content, str):
+                            f.write(f"\n**TravelBuddy:**\n{msg.content}\n\n")
+                        # Trường hợp content là một list
+                        elif isinstance(msg.content, list):
+                            for item in msg.content:
+                                if isinstance(item, dict) and item.get('type') == 'text':
+                                    f.write(f"\n**TravelBuddy:**\n{item['text']}\n\n")
             
             f.write("---\n\n")
             
