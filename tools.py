@@ -107,33 +107,51 @@ def calculate_budget(total_budget: int, expenses: str) -> str:
     total_budget: tổng ngân sách ban đầu (VNĐ)
     expenses: chuỗi mô tả các khoản chi (VD: 'vé máy bay: 890000, khách sạn: 650000')
     """
-    try:
-        # Parse chuỗi expenses thành dict [cite: 246]
-        expense_items = {}
-        items = expenses.split(',')
-        for item in items:
-            name, cost_str = item.split(':')
-            expense_items[name.strip().capitalize()] = int(cost_str.strip())
-            
-        # Tính toán chi phí [cite: 247, 254]
-        total_expense = sum(expense_items.values())
-        remaining = total_budget - total_expense
+    expense_items = {}
+    
+    # 1. Kiểm tra rỗng đầu vào
+    if not expenses or not expenses.strip():
+        return "Lỗi: Không có dữ liệu chi phí đầu vào."
+
+    # Lọc bỏ các phần tử rỗng nếu LLM sinh ra thừa dấu phẩy
+    items = [item for item in expenses.split(',') if item.strip()]
+    
+    for item in items:
+        # 2. Bắt lỗi cấu trúc (thiếu dấu hai chấm)
+        if ':' not in item:
+            return f"Lỗi định dạng: '{item}' thiếu dấu ':'. Yêu cầu Khí linh truyền đúng format 'tên: số tiền'."
         
-        # Format bảng chi tiết [cite: 248]
-        result_lines = ["Bảng chi phí:"]
-        for name, cost in expense_items.items():
-            cost_str = f"{cost:,}".replace(",", ".") + "₫"
-            result_lines.append(f"- {name}: {cost_str}")
-            
-        result_lines.append("-" * 20)
-        result_lines.append(f"Tổng chi: {f'{total_expense:,}'.replace(',', '.')}₫")
-        result_lines.append(f"Ngân sách: {f'{total_budget:,}'.replace(',', '.')}₫")
-        result_lines.append(f"Còn lại: {f'{remaining:,}'.replace(',', '.')}₫")
+        # Chỉ split tối đa 1 lần để tránh lỗi unpacking nếu tên có chứa dấu ':'
+        name, cost_str = item.split(':', 1) 
         
-        if remaining < 0:
-            result_lines.append(f"⚠️ Vượt ngân sách {f'{abs(remaining):,}'.replace(',', '.')}₫! Cần điều chỉnh.") [cite: 270]
+        # 3. Thanh tẩy tạp chất bằng Regex (chỉ giữ lại chữ số)
+        clean_cost_str = re.sub(r'[^\d]', '', cost_str)
+        
+        if not clean_cost_str:
+            return f"Lỗi định dạng số: Không tìm thấy giá trị số hợp lệ trong '{cost_str}' của khoản '{name}'."
+        
+        # 4. Ép kiểu an toàn (Bắt đúng ValueError)
+        try:
+            expense_items[name.strip().capitalize()] = int(clean_cost_str)
+        except ValueError:
+            return f"Lỗi ép kiểu: Không thể chuyển đổi '{clean_cost_str}' thành số nguyên."
             
-        return "\n".join(result_lines)
-    except Exception as e:
-        # Xử lý lỗi format sai [cite: 266, 271]
-        return f"Lỗi tính toán: Định dạng chi phí đầu vào sai. Hãy đảm bảo format dạng 'tên: số tiền, tên: số tiền'. Lỗi chi tiết: {str(e)}"
+    # Tính toán chi phí
+    total_expense = sum(expense_items.values())
+    remaining = total_budget - total_expense
+    
+    # Format bảng chi tiết
+    result_lines = ["Bảng chi phí:"]
+    for name, cost in expense_items.items():
+        cost_str = f"{cost:,}".replace(",", ".") + "₫"
+        result_lines.append(f"- {name}: {cost_str}")
+        
+    result_lines.append("-" * 20)
+    result_lines.append(f"Tổng chi: {f'{total_expense:,}'.replace(',', '.')}₫")
+    result_lines.append(f"Ngân sách: {f'{total_budget:,}'.replace(',', '.')}₫")
+    result_lines.append(f"Còn lại: {f'{remaining:,}'.replace(',', '.')}₫")
+    
+    if remaining < 0:
+        result_lines.append(f"⚠️ Vượt ngân sách {f'{abs(remaining):,}'.replace(',', '.')}₫! Cần điều chỉnh.")
+        
+    return "\n".join(result_lines)
